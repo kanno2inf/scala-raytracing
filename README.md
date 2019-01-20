@@ -1,7 +1,7 @@
 # scala-raytracing
 Raytracing with scala and processing
 
-scala + procesingでレイトレーシングするサンプル
+scala + processingでレイトレーシングするサンプル
 
 CPU並列化してあるのでコア数が多ければ高速に描画されます
 
