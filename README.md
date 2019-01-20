@@ -1,4 +1,4 @@
-# scala-raytraing
+# scala-raytracing
 Raytracing with scala and processing
 
 scala + procesingでレイトレーシングするサンプル
@@ -6,7 +6,7 @@ scala + procesingでレイトレーシングするサンプル
 CPU並列化してあるのでコア数が多ければ高速に描画されます
 
 ## Usage
-IntelliJ IDEAでプロジェクトを開いて、RayTracingまたはPathTraingオブジェクトを直接実行する
+IntelliJ IDEAでプロジェクトを開いて、RayTracingまたはPathTracingオブジェクトを直接実行する
 
 ## Images
 サンプル実行画像
