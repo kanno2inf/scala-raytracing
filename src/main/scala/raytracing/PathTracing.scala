@@ -70,7 +70,7 @@ class PathTracing extends PApplet {
     sum.scale(1f / SAMPLES).toGammaColor
   }
 
-  // レンダリングタスク姿勢
+  // レンダリングタスク生成
   def renderTasks: Seq[Future[Seq[(Int, Int, Int)]]] = {
     for (y <- 0 until height by parallelStep; x <- 0 until width by parallelStep) yield Future {
       val rand = new Random()
